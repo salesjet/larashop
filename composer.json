@@ -1,0 +1,7 @@
+{
+  "name": "salesjet/larashop",
+  "description": "ecommerce package for laravel",
+  "require": {
+    "php": "^7.2"
+  }
+}
