@@ -1,7 +1,26 @@
 {
   "name": "salesjet/larashop",
   "description": "ecommerce package for laravel",
+  "keywords": ["laravel","ecommerce"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zhang Lu",
+      "email": "info@larashop.com",
+      "homepage": "https://www.larashop.com",
+      "role": "Developer"
+    }
+  ],
   "require": {
-    "php": "^7.2"
+    "php": ">=7"
+  },
+  "autoload": {
+    "classmap": [],
+    "psr-4": {
+      "SalesJet\\LaraShop\\": "src/"
+    }
+  },
+  "require-dev": {
+    "laravel/framework": "^5.5"
   }
 }
